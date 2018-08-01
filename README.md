@@ -1,4 +1,4 @@
-# Readme
+# Vue.js Tutorial App
 
 > This is a tutorial app to learn Vue.js
 
