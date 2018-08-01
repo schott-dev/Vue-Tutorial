@@ -1,6 +1,6 @@
-# y
+# Readme
 
-> y
+> This is a tutorial app the learn Vue.js
 
 ## Build Setup
 
