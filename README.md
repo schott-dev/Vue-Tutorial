@@ -25,3 +25,5 @@ npm test
 ```
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+
+Credit to: [scotch.io](https://scotch.io/tutorials/build-a-to-do-app-with-vue-js-2) for the original tutorial.

@@ -1,14 +1,18 @@
 <template>
   <div>
-    <ul>
-      <li v-for="todo in todos" v-bind:key="todo.title">{{todo.project}}</li>
-    </ul>
+    <p>Completed Tasks: {{todos.filter(todo => {return todo.done === true}).length}}</p>
+    <p>Pending Tasks: {{todos.filter(todo => {return todo.done === false}).length}}</p>
+    <todo  v-for="todo in todos" v-bind:todo="todo" v-bind:key="todo.title"></todo>
   </div>
 </template>
 
 <script>
+import Todo from './Todo'
 export default {
   name: 'ToDoList',
+  components: {
+    Todo
+  },
   data () {
     return {
       todos: [{
